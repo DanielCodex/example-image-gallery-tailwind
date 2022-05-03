@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Learning from "./playground/Learning";
+import FlexBox from "./components/flexbox/FlexBox";
+import Grid from "./components/grid/Grid";
+import Button from "./components/effect/Button";
+import ImageLibrary from "./components/project1/ImageLibrary";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <FlexBox /> */}
+      {/* <Grid /> */}
+      {/* <Button /> */}
+      <ImageLibrary />
     </div>
   );
 }
